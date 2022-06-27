@@ -12,6 +12,7 @@
     {"id":{"name":"oWall1","path":"objects/oWall1/oWall1.yy",},"order":1,},
     {"id":{"name":"oTutorial","path":"objects/oTutorial/oTutorial.yy",},"order":3,},
     {"id":{"name":"sEnemyA","path":"sprites/sEnemyA/sEnemyA.yy",},"order":15,},
+    {"id":{"name":"oDead","path":"objects/oDead/oDead.yy",},"order":9,},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":14,},
     {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},"order":0,},
     {"id":{"name":"oGun","path":"objects/oGun/oGun.yy",},"order":5,},
