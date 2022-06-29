@@ -20,9 +20,10 @@ if  (place_meeting(x+hsp, y, oWall1))
 {
 	while (!place_meeting(x+sign(hsp),y,oWall1))
 	{
-		x = x + sign(hsp)	
+			
+		x = x + sign(hsp)
 	}
-	
+	hsp = 0
 }
 
 x = x + hsp;
