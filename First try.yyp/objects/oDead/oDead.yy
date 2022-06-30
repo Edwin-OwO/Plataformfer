@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sEnemyD",
-    "path": "sprites/sEnemyD/sEnemyD.yy",
+    "name": "sMDeath",
+    "path": "sprites/sMDeath/sMDeath.yy",
   },
   "solid": false,
   "visible": true,

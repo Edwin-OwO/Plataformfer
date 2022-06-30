@@ -1,4 +1,4 @@
-vsp = 3;
+vsp = 6;
 // velocidad vertical
 hsp = 4;
 // velociadad horizonal

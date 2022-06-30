@@ -30,7 +30,7 @@ y = y + vsp;
 
 if (!place_meeting(x,y+1,oWall1))
 {
-	sprite_index = sEnemyA;
+	sprite_index = sMachine;
 	image_speed = 0; 
 	if (sign(vsp) > 0) image_index = 1;  else image_index = 0;
 
@@ -42,14 +42,15 @@ else
 	image_speed = 1;
 	if (hsp == 0) 
 	{
-		sprite_index = sEnemy;
+		sprite_index = sMachine;
 	}
 	
 else
 	{
-		sprite_index = sEnemyR;
+		sprite_index = sMachine;
 	}
 }
 
 
-if (hsp != 0) image_xscale = sign(-hsp);
+
+
