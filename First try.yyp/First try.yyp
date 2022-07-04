@@ -10,6 +10,7 @@
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":7,},
     {"id":{"name":"sJump","path":"sprites/sJump/sJump.yy",},"order":9,},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},"order":11,},
+    {"id":{"name":"oPlatform","path":"objects/oPlatform/oPlatform.yy",},"order":6,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":13,},
     {"id":{"name":"oWall1","path":"objects/oWall1/oWall1.yy",},"order":0,},
     {"id":{"name":"oTutorial","path":"objects/oTutorial/oTutorial.yy",},"order":5,},
@@ -63,7 +64,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.3.0.624",
+    "IDEVersion": "2022.5.0.8",
   },
   "resourceVersion": "1.5",
   "name": "First try",
