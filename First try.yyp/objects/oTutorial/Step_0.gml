@@ -1,12 +1,19 @@
 //Control + F = Buscador
-
+movedelay = movedelay - 1
 click_check = (mouse_check_button(mb_left));
+rclick_check = (mouse_check_button(mb_right));
 
-vsp = vsp + grv;
-
-if (place_meeting(x,y+1,oWall1) and (click_check))
+if (click_check) 
 {
-	vsp = -5;
+	x = x - 5
+	
+
+}
+
+if (rclick_check)
+{
+	x = x + 5
+	
 
 }
 
@@ -30,11 +37,11 @@ if  (place_meeting(x, y+vsp, oPlatform))
 	vsp = 0;
 	
 }
-if  (place_meeting(x+hsp, y, oWall1))
+if  (place_meeting(x+hsp, y, oWall1 or oWall112))
 {
-	while (!place_meeting(x+sign(hsp),y,oWall1))
+	while (!place_meeting(x+sign(hsp),y,oWall1 or oWall112))
 	{
-		x = x + sign(hsp)	
+		x = x - 3	
 	}
 	
 	hsp = -hsp;
@@ -58,28 +65,6 @@ y = y + vsp;
 // Animaciones --------------------------------------------------------------------------------------------------------------------------------------------------------
 // ! = not 
 
-
-if (!place_meeting(x,y+1,oWall1))
-{
-	sprite_index = sJfer;
-	image_speed = 0; 
-	if (sign(vsp) > 0) image_index = 1;  else image_index = 0;
-
-}
-
-else
-{
-	image_speed = 1;
-	if (hsp == 0) 
-	{
-		sprite_index = sFer;
-	}
-	
-else
-	{
-		sprite_index = sWfer;
-	}
-}
-
+sprite_index = sWfer
 
 if (hsp != 0) image_xscale = sign(hsp)
