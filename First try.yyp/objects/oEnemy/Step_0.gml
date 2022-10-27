@@ -1,4 +1,7 @@
 vsp = vsp + grv;
+
+y = y + vsp
+
 if  (place_meeting(x+hsp, y, oWall1))
 {
 	instance_destroy()

@@ -1,12 +1,9 @@
 event_inherited();
-
-global._contador=0
-global._name="b"
 global._id=0
-get = http_get("http://localhost:8080/players/");
+get = http_get("http://192.168.45.168:8080/players");
 
 var player = ds_map_create();
-ds_map_add(player, "name", global._name);
+ds_map_add(player, "name", global._text);
 ds_map_add(player, "sprite",global._contador);
 
     
