@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "paginaprincipal",
+    "path": "folders/Objects/paginaprincipal.yy",
   },
   "resourceVersion": "1.0",
   "name": "oUsuario",
