@@ -1,3 +1,4 @@
 delete_time = 0;
-global._text = "";
+kv_input_string = "";
+global.name = "";
 

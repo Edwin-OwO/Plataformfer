@@ -4,14 +4,14 @@ if (global._health = 0){
 
 }
 if (global._health > 0) && (global._weapon = 3) {
-	x = oTutorial.x+10;
-	y = oTutorial.y+5;
+	x = oTutorial.x+45
+	y = oTutorial.y+10
 
 	image_angle = 90;
 
 	firingdelay = firingdelay - 0.1
 	recoil = max(0,recoil -1); 
-	if (keyboard_check(vk_space)) and (firingdelay <= 0)
+	if (keyboard_check(vk_space)) and (firingdelay <= 4)
 	{
 		recoil = 4;
 		firingdelay = 4 ;

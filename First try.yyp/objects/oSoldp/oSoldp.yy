@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oSoldp",
   "spriteId": {
     "name": "sSoldador",
     "path": "sprites/sSoldador/sSoldador.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -20,15 +24,13 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "tienda",
     "path": "folders/Objects/tienda.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oSoldp",
-  "tags": [],
-  "resourceType": "GMObject",
 }

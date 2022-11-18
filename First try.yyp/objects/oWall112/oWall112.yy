@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oWall112",
   "spriteId": {
     "name": "sWall20",
     "path": "sprites/sWall20/sWall20.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -20,15 +24,14 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlatform","path":"objects/oPlatform/oPlatform.yy",},},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "estructuas",
     "path": "folders/Objects/estructuas.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oWall112",
-  "tags": [],
-  "resourceType": "GMObject",
 }

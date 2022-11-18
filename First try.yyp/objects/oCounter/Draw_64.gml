@@ -16,17 +16,18 @@ draw_set_font(oCounterf);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 415780E7
-/// @DnDArgument : "x" "288"
-/// @DnDArgument : "y" "96"
-/// @DnDArgument : "caption" ""Puntuación: ""
-/// @DnDArgument : "var" "global._contador"
-draw_text(288, 96, string("Puntuación: ") + string(global._contador));
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "caption" ""Puntuacion: ""
+/// @DnDArgument : "var" "global.puntaje"
+draw_text(x + 0, y + 0, string("Puntuacion: ") + string(global.puntaje));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 2DBC0A1E
-/// @DnDArgument : "x" "288"
-/// @DnDArgument : "y" "128"
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y" "20"
+/// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""Monedas $ : ""
 /// @DnDArgument : "var" "global._monedas"
-draw_text(288, 128, string("Monedas $ : ") + string(global._monedas));
+draw_text(x + 0, y + 20, string("Monedas $ : ") + string(global._monedas));

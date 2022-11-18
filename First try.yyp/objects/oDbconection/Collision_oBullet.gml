@@ -1,2 +1,2 @@
-global._contador = global._contador + 1
+global.puntaje = global.puntaje + 1
 instance_destroy()

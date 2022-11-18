@@ -1,7 +1,7 @@
 
 if (hp <= 0)
 {
-	global._contador = global._contador + 1
+	global.puntaje = global.puntaje + 1
 	global._monedas = global._monedas + 10
 	with(instance_create_layer(x,y,layer,oDead))
 	{

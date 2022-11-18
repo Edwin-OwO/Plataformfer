@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oBox2",
   "spriteId": {
     "name": "sBox2",
     "path": "sprites/sBox2/sBox2.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +31,4 @@
     "name": "paginajuego",
     "path": "folders/Objects/paginajuego.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oBox2",
-  "tags": [],
-  "resourceType": "GMObject",
 }

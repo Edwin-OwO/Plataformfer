@@ -1,6 +1,8 @@
-if (global._monedas = 20)
+if (global._monedas >= 100 && global.comprado!=2)
 {
 	global._weapon = 2
-	global._monedas = global._monedas - 2000
+	global._monedas +=  - 100
+	global.cosmeticos = 1
+	global.comprado=2
 }
 

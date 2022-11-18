@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oPiso2",
   "spriteId": {
     "name": "sPiso2",
     "path": "sprites/sPiso2/sPiso2.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +31,4 @@
     "name": "estructuas",
     "path": "folders/Objects/estructuas.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oPiso2",
-  "tags": [],
-  "resourceType": "GMObject",
 }

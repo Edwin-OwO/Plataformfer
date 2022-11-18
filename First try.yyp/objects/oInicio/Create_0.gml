@@ -1,6 +1,10 @@
-global._contador = 0
+global.puntaje = 0
 global._monedas = 0
 global._dmg = 3
 global._price = 100
 global._weapon = 1
 global._health = 3
+global.comprado=0
+global.only = false
+global.cosmeticos=0
+global.enemyvsp=0

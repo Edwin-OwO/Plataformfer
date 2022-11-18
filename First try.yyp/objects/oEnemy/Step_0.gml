@@ -1,6 +1,6 @@
-vsp = vsp + grv;
+vsp = vsp + grv ;
 
-y = y + vsp
+y = y + vsp- global.enemyvsp
 
 if  (place_meeting(x+hsp, y, oWall1))
 {
